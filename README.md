@@ -20,6 +20,8 @@ recommended.
 - Converter input ripple of about 100mV (still testing)
 - "12V" and "HVRST" leds are consuming majority of converter's output :)
 
+![Board View REV. 1 test mule](testmule.jpg)
+
 ## Changes coming in second revision
 
 - MAX662-based converter
