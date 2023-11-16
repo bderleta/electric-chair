@@ -2519,8 +2519,8 @@
     (uuid a522d96a-7c0a-4341-9240-068e94cff21e)
   )
 
-  (text "This circuit should provide around 25 mA of usable current. \nWhen not installed, 12V can be fed through TP1, although\nit has to be externally fused at around 50mA."
-    (at 15.24 113.03 0)
+  (text "This circuit should provide around 10 mA of current. \nWhen not installed, 12V can be fed through TP1."
+    (at 15.24 110.49 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 104bc969-01f5-4bb9-ace0-70a8c1ec1045)
   )
@@ -2551,7 +2551,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 69d7c54f-dc96-40d5-9b8e-ef348ebe565f)
   )
-  (text "As in prototype:\nD4: red 1206 led\nR4=1800Ω\nVf(D4)=1.8V"
+  (text "As in prototype:\nD4: green 1206 led\nR4=560Ω\nVf(D4)=2V\nI(R4,D4)=5.5mA"
     (at 26.67 170.18 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6f87f4bd-91e4-4df3-862a-00dad8ca3a60)
@@ -3694,7 +3694,7 @@
     (property "Reference" "L1" (at 63.5 113.03 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "150uH" (at 63.5 115.57 90)
+    (property "Value" "330uH" (at 63.5 115.57 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-LS_Handsoldering" (at 63.5 118.11 0)
